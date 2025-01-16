@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bầu cua tôm cá</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bầu Cua Tôm Cá</h1>
+        <div class="betting">
+            <h2>Điểm: <span id="score">100</span></h2>
+            <p>Chọn biểu tượng bạn muốn đặt cược:</p>
+            <div class="symbols">
+                <button data-symbol="Bầu">Bầu</button>
+                <button data-symbol="Cua">Cua</button>
+                <button data-symbol="Tôm">Tôm</button>
+                <button data-symbol="Cá">Cá</button>
+                <button data-symbol="Gà">Gà</button>
+                <button data-symbol="Nai">Nai</button>
+            </div>
+            <div class="bet-info">
+                <p>Bạn đã đặt cược: <strong id="chosen-symbol">Chưa chọn</strong></p>
+                <input id="bet-amount" type="number" min="10" max="100" placeholder="Số tiền cược">
+            </div>
+    </div>
+
+    <div class="game">
+        <div class="dice">
+            <div id="dice1" class="box"></div>
+            <div id="dice2" class="box"></div>
+            <div id="dice3" class="box"></div>
+        </div>
+        <button id="roll">Lóc Sọ</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
