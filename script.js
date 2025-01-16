@@ -1,9 +1,9 @@
 const symbols = [
-    "Bầu.jng",
+    "Bầu.jpg",
     "Cua.jpg",
     "Tôm.jpg",
     "Cá.jpg",
-    "Gà.jng",
+    "Gà.jpg",
     "Nai.jpg"
 ];
 
