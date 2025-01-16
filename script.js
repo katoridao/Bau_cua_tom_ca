@@ -95,9 +95,9 @@ function rollDice() {
   // Trì hoãn thông báo để người chơi thấy giao diện
   setTimeout(() => {
     if (matches > 0) {
-      alert(`Bạn đã thắng! Nhận được ${matches * betAmount} điểm.`);
+      alert(`Bạn đã thắng! Nhận được ${matches * betAmount} xu.`);
     } else {
-      alert("Bạn đã thua! Mất số điểm đã cược.");
+      alert("Bạn đã thua! Mất số xu đã cược.");
     }
 
     // Cập nhật điểm
@@ -110,7 +110,7 @@ function rollDice() {
 
     // Kiểm tra nếu hết điểm
     if (score <= 0) {
-      alert("Bạn đã hết điểm! Trò chơi sẽ được reset.");
+      alert("Bạn đã hết xu! Trò chơi sẽ được reset.");
       score = 100;
       scoreDisplay.textContent = score;
     }
